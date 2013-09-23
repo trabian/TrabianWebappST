@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+BaseView = require 'core/views/base'
+
+module.exports = class ${1} extends BaseView
+
+  template: require './template'
+
+  ${3}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tview</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.coffee</scope>
+</snippet>

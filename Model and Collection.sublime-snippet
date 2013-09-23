@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+{ BaseModel, BaseCollection } = require 'core/models/base'
+
+class ${1:ModelName} extends BaseModel
+
+  resourceName: '${2:plural_resource_name}'
+
+class ${1:ModelName}Collection extends BaseCollection
+
+  model: ${1:ModelName}
+
+module.exports = { ${1:ModelName}, ${1:ModelName}Collection }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tmodcol</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.coffee</scope>
+</snippet>

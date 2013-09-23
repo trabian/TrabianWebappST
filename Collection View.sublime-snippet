@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+BaseCollectionView = require 'core/views/base/collection'
+
+module.exports = class ${1} extends BaseCollectionView
+
+  itemView: require '${2}'
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tcolview</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.coffee</scope>
+</snippet>
